@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="33" started-at="2019-07-22T05:05:48Z" finished-at="2019-07-22T05:05:48Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="33" started-at="2019-07-22T05:05:48Z" finished-at="2019-07-22T05:05:48Z">
+      <class name="com.mycompany.app.SeleniumTest">
+        <test-method status="PASS" signature="BrowserAUtomation()[pri:0, instance:com.mycompany.app.SeleniumTest@5315b42e]" name="BrowserAUtomation" duration-ms="1" started-at="2019-07-22T10:35:48Z" finished-at="2019-07-22T10:35:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserAUtomation -->
+        <test-method status="PASS" signature="elementsUi()[pri:0, instance:com.mycompany.app.SeleniumTest@5315b42e]" name="elementsUi" duration-ms="1" started-at="2019-07-22T10:35:48Z" finished-at="2019-07-22T10:35:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elementsUi -->
+      </class> <!-- com.mycompany.app.SeleniumTest -->
+      <class name="com.mycompany.app.AppiumTest">
+        <test-method status="PASS" signature="IOSApps()[pri:0, instance:com.mycompany.app.AppiumTest@1324409e]" name="IOSApps" duration-ms="8" started-at="2019-07-22T10:35:48Z" finished-at="2019-07-22T10:35:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IOSApps -->
+        <test-method status="PASS" signature="NativeApAndroid()[pri:0, instance:com.mycompany.app.AppiumTest@1324409e]" name="NativeApAndroid" duration-ms="1" started-at="2019-07-22T10:35:48Z" finished-at="2019-07-22T10:35:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NativeApAndroid -->
+      </class> <!-- com.mycompany.app.AppiumTest -->
+      <class name="com.mycompany.app.RESTAPITest">
+        <test-method status="PASS" signature="deleteTwitter()[pri:0, instance:com.mycompany.app.RESTAPITest@62043840]" name="deleteTwitter" duration-ms="1" started-at="2019-07-22T10:35:48Z" finished-at="2019-07-22T10:35:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTwitter -->
+        <test-method status="PASS" signature="postJira()[pri:0, instance:com.mycompany.app.RESTAPITest@62043840]" name="postJira" duration-ms="1" started-at="2019-07-22T10:35:48Z" finished-at="2019-07-22T10:35:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postJira -->
+      </class> <!-- com.mycompany.app.RESTAPITest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
